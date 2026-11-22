@@ -1,0 +1,200 @@
+{
+  "name": "AERIS Alternate Network",
+  "coords": {
+    "Depot": [
+      0,
+      3.2
+    ],
+    "K": [
+      1.8,
+      5.8
+    ],
+    "L": [
+      2.0,
+      2.0
+    ],
+    "M": [
+      3.8,
+      6.4
+    ],
+    "N": [
+      4.1,
+      4.0
+    ],
+    "P": [
+      4.0,
+      1.1
+    ],
+    "Q": [
+      6.3,
+      5.8
+    ],
+    "R": [
+      6.4,
+      3.1
+    ],
+    "S": [
+      6.2,
+      0.5
+    ],
+    "T": [
+      8.3,
+      5.0
+    ],
+    "U": [
+      8.5,
+      2.0
+    ],
+    "Hospital": [
+      10.4,
+      5.8
+    ],
+    "Relief Camp": [
+      10.5,
+      3.0
+    ],
+    "Village": [
+      10.2,
+      0.7
+    ]
+  },
+  "edges": [
+    [
+      "Depot",
+      "K",
+      "road"
+    ],
+    [
+      "Depot",
+      "L",
+      "road"
+    ],
+    [
+      "Depot",
+      "N",
+      "bridge"
+    ],
+    [
+      "K",
+      "M",
+      "road"
+    ],
+    [
+      "K",
+      "N",
+      "road"
+    ],
+    [
+      "L",
+      "N",
+      "road"
+    ],
+    [
+      "L",
+      "P",
+      "lowland"
+    ],
+    [
+      "M",
+      "Q",
+      "road"
+    ],
+    [
+      "N",
+      "Q",
+      "bridge"
+    ],
+    [
+      "N",
+      "R",
+      "road"
+    ],
+    [
+      "P",
+      "R",
+      "road"
+    ],
+    [
+      "P",
+      "S",
+      "lowland"
+    ],
+    [
+      "Q",
+      "T",
+      "road"
+    ],
+    [
+      "Q",
+      "Hospital",
+      "bridge"
+    ],
+    [
+      "R",
+      "T",
+      "road"
+    ],
+    [
+      "R",
+      "U",
+      "road"
+    ],
+    [
+      "S",
+      "U",
+      "road"
+    ],
+    [
+      "T",
+      "Hospital",
+      "road"
+    ],
+    [
+      "T",
+      "Relief Camp",
+      "road"
+    ],
+    [
+      "U",
+      "Relief Camp",
+      "road"
+    ],
+    [
+      "U",
+      "Village",
+      "road"
+    ],
+    [
+      "S",
+      "Village",
+      "road"
+    ],
+    [
+      "R",
+      "Hospital",
+      "road"
+    ],
+    [
+      "N",
+      "U",
+      "bridge"
+    ]
+  ],
+  "requests": {
+    "Hospital": {
+      "supply": "Blood units",
+      "quantity": 4,
+      "priority": 0.95
+    },
+    "Relief Camp": {
+      "supply": "Water pack",
+      "quantity": 14,
+      "priority": 0.68
+    },
+    "Village": {
+      "supply": "Insulin cold box",
+      "quantity": 2,
+      "priority": 0.88
+    }
+  }
+}
